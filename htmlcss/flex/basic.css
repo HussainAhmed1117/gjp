@@ -1,13 +1,23 @@
-.container {
+/* .container{
+    display: flex;
+    /* justify-content: flex-end; */
+/* background: red; */
+height: 100%;
+align-items: center;
+}
+
+*/
+/* .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    flex-direction: row;
-    /* justify-content: space-around; */
-    /* justify-content: flex-end; */
-    /* by default */
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+    by default
+    align-items: center;
+    background-color: red;
     height: 100%;
-}
+} */
 
 
 
@@ -18,26 +28,39 @@ space-between space-evenly */
 /* .logout {
     margin-left: auto;
 } */
-/* 
-.search {
+
+/* .search {
     margin-left: auto;
+} */
+
+/* 
+.home {
+    margin-right: auto;
 } */
 
 
 /* The flex property */
-/* it allows you to set the width of the items according to the width of the parent */
+/* it allows you to set the 
+width of the items according to the 
+width of the parent */
 
 /* Everything will take up equal amount of space  */
-/* .container > div{
+/* .container>div {
     flex: 1;
 } */
+/* 
+.container .logout {
+    flex: 2;
+} */
+
 /* or you can do is */
 /* .container > div{
     width: 33.3333%;
 } */
 /*flex-grow, flex-shrink, flex-basis */
 
-/* if you want to make search to be twice as wide as others */
+/* if you want to make search to be twice as wide as 
+others */
 /* .container>div {
     flex: 1;
 
@@ -45,15 +68,17 @@ space-between space-evenly */
 
 
 .container>.search {
-    flex: 2;
+    flex: 3;
 } */
 
-/* Make something where only home and logout do the flexing */
+/* Make something where only home and logout do
+ the flexing */
+
 /* .container {
     border: 5px solid #ffcc5c;
     display: flex;
-}
-
+} */
+/* 
 .home {
     flex: 1;
 }
@@ -64,21 +89,30 @@ space-between space-evenly */
 
 
 
-/* align self and align items and justify self and justify ontent */
-/* .container {
+/* align self and align items and 
+justify self and justify ontent */
+.container {
     border: 5px solid #ffcc5c;
     display: flex;
     height: 100%;
-    align-items: center;
-  }
-  
-  .logout {
+    justify-content: center;
+    background-color: black;
+}
+
+.logout {
     align-self: flex-start;
-  }
-  
-  .home {
-    align-self: flex-end;
-  } */
+}
+
+.home {
+    justify-self: flex-end;
+}
+
+/* 
+
+.search {
+    align-self: center;
+} */
+
 
 
 /* Flex direction Column and justify content */
@@ -86,9 +120,22 @@ space-between space-evenly */
     border: 5px solid #ffcc5c;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     height: 100%;
-  } */
+  }
+
+
+.home{
+    align-self: flex-end;
+}
+.logout{
+    align-self: flex-start;
+}
+
+.search{
+    align-self: center;
+} */
+
 /* with align items */
 /* .container {
     border: 5px solid #ffcc5c;
@@ -98,5 +145,3 @@ space-between space-evenly */
     height: 100%;
     align-items: flex-end;
 } */
-
-
