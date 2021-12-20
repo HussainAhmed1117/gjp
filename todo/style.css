@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-container {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.todo-container input {
+    padding: 10px;
+}
+
+.todo-container button {
+    padding: 10px;
+}
+
+.todos * {
+    padding: 10px;
+}
+
+.todos div {
+    border: 1px solid black;
+    display: flex;
+    margin: 5px;
+}
+
+.mla {
+    margin-left: auto;
+}
